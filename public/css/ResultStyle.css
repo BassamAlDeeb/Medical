@@ -1,0 +1,167 @@
+@import url("../DroidKufi_Regular/stylesheet.css");
+
+.header {
+    margin-top: 0px;
+}
+
+#siteBanner {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.SiteBtn {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "DroidKufi Regular", "Myriad Pro Regular" !important;
+    background-color: #d3d3d3;
+    /*padding-left: 5px;
+    padding-right: 5px;*/
+    margin: 5px;
+}
+
+.CenterContent {
+    text-align: center;
+    align-content: center;
+}
+
+.PatientInfoHeader {
+    color: #056735;
+    font-weight: bolder;
+    font-family: "DroidKufi Regular", "Myriad Pro Regular" !important;
+    font-size: 16px;
+    padding: 10px;
+}
+
+fieldset {
+    border: 1px solid #9999cc;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 15px;
+}
+
+fieldset legend {
+    font-weight: bolder;
+    font-family: "DroidKufi Regular", "Myriad Pro Regular" !important;
+    font-size: 18px;
+    width: 50%;
+    border: 1px solid #9999cc;
+    display: table;
+    float: none;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    color: #000;
+    font-family: "DroidKufi Regular", "Myriad Pro Regular" !important;
+    font-size: 12px;
+    width: 100%;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* FF only */
+@media screen and (-moz-images-in-menus: 0) {
+    fieldset {
+        position: relative;
+    }
+    fieldset > legend {
+        position: absolute;
+        left: 50%;
+        top: -12px; /* depends on font size and border */
+        background: white; /* depends on background */
+        transform: translate(-50%, 0);
+    }
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+    display: none !important;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+    padding: 5px 8px !important;
+}
+
+#header {
+    width: 100%;
+    z-index: 999;
+    /* border-bottom: 2px #e1e1e1 solid; 
+      border-top: 5px solid #f2797f;*/
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.language-button {
+    font-family: "DroidKufi Regular", "Myriad Pro Regular" !important;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 4px;
+    float: right;
+    background: none;
+    border: 0px;
+}
+
+.language-button:hover {
+    color: #2275b1;
+    text-decoration: none;
+}
+
+.logo-header {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-family: "DroidKufi Regular", "Myriad Pro Regular" !important;
+    font-size: 12px;
+    width: 100%;
+    text-decoration: none;
+    vertical-align: middle;
+    height: 50px;
+    padding-top: 8px;
+}
+
+.footer a:link {
+    color: #fff;
+}
+
+.footer a:visited {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer a:active {
+    color: #fff;
+}
+
+p {
+    margin: 0 0 0px !important;
+}

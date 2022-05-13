@@ -1,0 +1,110 @@
+
+        
+/*
+      
+
+        //Tools
+        Category::create(['category_name' => 'Tools', 'subcategory'=>'POWER TOOLS','subcat_image' => $image]);
+        Category::create(['category_name' => 'Tools', 'subcategory'=>'POWER TOOL ACCESSORIES','subcat_image' => $image]);
+        Category::create(['category_name' => 'Tools', 'subcategory'=>'TOOL STORAGE','subcat_image' => $image]);
+        Category::create(['category_name' => 'Tools', 'subcategory'=>'MEASURING TOOLS','subcat_image' => $image]);
+        Category::create(['category_name' => 'Tools', 'subcategory'=>'TESTING EQUIPMENT','subcat_image' => $image]);
+        //electrical  
+        Category::create(['category_name' => 'Electrical And Lighting', 'subcategory'=>'WIRING ACCESSORIES']);
+        Category::create(['category_name' => 'Electrical And Lighting', 'subcategory'=>'CABLE And CABLE MANAGEMENT']);
+        Category::create(['category_name' => 'Electrical And Lighting', 'subcategory'=>'POWER DISTRIBUTION And CIRCUIT PROTECTION']);
+        Category::create(['category_name' => 'Electrical And Lighting', 'subcategory'=>'DOMESTIC ELECTRICALS']);
+        Category::create(['category_name' => 'Electrical And Lighting', 'subcategory'=>'SMART HOMES']);
+        Category::create(['category_name' => 'Electrical And Lighting', 'subcategory'=>'LIGHTING']);
+        //Kitchens
+        Category::create(['category_name' => 'BATHROOMS And KITCHENS', 'subcategory'=>'SHOWERING']);
+        Category::create(['category_name' => 'BATHROOMS And KITCHENS', 'subcategory'=>'BATHROOMS']);
+        Category::create(['category_name' => 'BATHROOMS And KITCHENS', 'subcategory'=>'TAPS']);
+        Category::create(['category_name' => 'BATHROOMS And KITCHENS', 'subcategory'=>'COMMERCIAL']);
+        Category::create(['category_name' => 'BATHROOMS And KITCHENS', 'subcategory'=>'ASSISTED LIVING']);
+        Category::create(['category_name' => 'BATHROOMS And KITCHENS', 'subcategory'=>'KITCHENS']);
+//heating
+        Category::create(['category_name' => 'Heating Aand Plumbing', 'subcategory'=>'RADIATORS']);
+        Category::create(['category_name' => 'Heating Aand Plumbing', 'subcategory'=>'CENTRAL HEATING']);
+        Category::create(['category_name' => 'Heating Aand Plumbing', 'subcategory'=>'PLUMBING']);
+        Category::create(['category_name' => 'Heating Aand Plumbing', 'subcategory'=>'GUTTERING And DRAINAGE']);
+        Category::create(['category_name' => 'Heating Aand Plumbing', 'subcategory'=>'FIRES, STOVES And ELECTRIC HEATING']);
+        Category::create(['category_name' => 'Heating Aand Plumbing', 'subcategory'=>'VENTILATION']);
+
+//Gardining
+        Category::create(['category_name' => 'Outdoor And Gardining', 'subcategory'=>'GARDEN POWER TOOLS']);
+        Category::create(['category_name' => 'Outdoor And Gardining', 'subcategory'=>'OUTDOOR PROJECTS']);
+        Category::create(['category_name' => 'Outdoor And Gardining', 'subcategory'=>'GARDEN BUILDINGS']);
+        Category::create(['category_name' => 'Outdoor And Gardining', 'subcategory'=>'WATERING']);
+        Category::create(['category_name' => 'Outdoor And Gardining', 'subcategory'=>'MAINTENANCE And CARE']);
+        Category::create(['category_name' => 'Outdoor And Gardining', 'subcategory'=>'GARDEN HAND TOOLS']);
+//Safety
+        Category::create(['category_name' => 'Safety And Workwear', 'subcategory'=>'SAFETY FOOTWEAR']);
+        Category::create(['category_name' => 'Safety And Workwear', 'subcategory'=>'SAFETY']);
+        Category::create(['category_name' => 'Safety And Workwear', 'subcategory'=>'WORKWEAR']);
+        Category::create(['category_name' => 'Safety And Workwear', 'subcategory'=>'PPE']);
+        Category::create(['category_name' => 'Safety And Workwear', 'subcategory'=>'SHOP BY TRADE']);
+
+//Doors
+        Category::create(['category_name' => 'Buldings And Doors', 'subcategory'=>'DOORS And DOOR FITTINGS']);
+        Category::create(['category_name' => 'Buldings And Doors', 'subcategory'=>'WINDOWS And WINDOW FITTINGS']);
+        Category::create(['category_name' => 'Buldings And Doors', 'subcategory'=>'JOINERY And HOME IMPROVEMENTS']);
+        Category::create(['category_name' => 'Buldings And Doors', 'subcategory'=>'BUILDING SUPPLIES']);
+        Category::create(['category_name' => 'Buldings And Doors', 'subcategory'=>'FLOORING']);
+
+        
+        Category::create(['category_name' => 'Decorating', 'subcategory'=>'PAINTING']);
+        Category::create(['category_name' => 'Decorating', 'subcategory'=>'WOODCARE']);
+        Category::create(['category_name' => 'Decorating', 'subcategory'=>'DECORATING TOOLS']);
+        Category::create(['category_name' => 'Decorating', 'subcategory'=>'CLEANING And PREPARATION']);
+        Category::create(['category_name' => 'Decorating', 'subcategory'=>'WALLPAPER And COVERINGS']);
+
+
+
+
+        Category::create(['category_name' => 'Screws,Nails And Fixing','subcategory'=>'SCREWS']);
+        Category::create(['category_name' => 'Screws,Nails And Fixing','subcategory'=>'FIXINGS And FASTENERS']);
+        Category::create(['category_name' => 'Screws,Nails And Fixing','subcategory'=>'NUTS, BOLTS And WASHERS']);
+        Category::create(['category_name' => 'Screws,Nails And Fixing','subcategory'=>'NAILS']);
+
+
+
+        Category::create(['category_name' => 'Auto And Cleaning','subcategory'=>'MECHANICS TOOLS']);
+        Category::create(['category_name' => 'Auto And Cleaning','subcategory'=>'GARAGE EQUIPMENT']);
+        Category::create(['category_name' => 'Auto And Cleaning','subcategory'=>'CAR ACCESSORIES']);
+        Category::create(['category_name' => 'Auto And Cleaning','subcategory'=>'BREAKDOWN And TRAVEL']);
+        Category::create(['category_name' => 'Auto And Cleaning','subcategory'=>'CLEANING POWER']);
+        Category::create(['category_name' => 'Auto And Cleaning','subcategory'=>'CLEANING ESSENTIALS']);
+
+
+
+
+
+        Category::create(['category_name' => 'Storage And Ladders','subcategory'=>'LADDERS']);
+        Category::create(['category_name' => 'Storage And Ladders','subcategory'=>'OFFICE FURNITURE']);
+        Category::create(['category_name' => 'Storage And Ladders','subcategory'=>'SHELVING']);
+        Category::create(['category_name' => 'Storage And Ladders','subcategory'=>'STORAGE']);
+        Category::create(['category_name' => 'Storage And Ladders','subcategory'=>'MANUAL HANDLING']);
+        Category::create(['category_name' => 'Storage And Ladders','subcategory'=>'SCAFFOLDING']);
+
+
+        Category::create(['category_name' => 'SECURITY And IRONMONGERY','subcategory'=>'CCTV And SURVEILLANCE']);
+        Category::create(['category_name' => 'SECURITY And IRONMONGERY','subcategory'=>'ALARMS And SENSORS']);
+        Category::create(['category_name' => 'SECURITY And IRONMONGERY','subcategory'=>'SECURITY']);
+        Category::create(['category_name' => 'SECURITY And IRONMONGERY','subcategory'=>'HINGES']);
+        Category::create(['category_name' => 'SECURITY And IRONMONGERY','subcategory'=>'DOOR FURNITURE']);
+        Category::create(['category_name' => 'SECURITY And IRONMONGERY','subcategory'=>'IRONMONGERY']);
+
+        Category::create(['category_name' => 'Furniture','subcategory'=>'Officing']);
+        Category::create(['category_name' => 'Furniture','subcategory'=>'Houses']);
+
+
+
+           CATEGORY::CREATE(['CATEGORY_NAME' => 'EQUEPMENTS','SUBCATEGORY'=>'TONERS SUPPLY']);
+        CATEGORY::CREATE(['CATEGORY_NAME' => 'EQUEPMENTS','SUBCATEGORY'=>'PRINTERS AND ALL IN ONE']);
+        CATEGORY::CREATE(['CATEGORY_NAME' => 'EQUEPMENTS','SUBCATEGORY'=>'TECHNOLOGY']);
+        CATEGORY::CREATE(['CATEGORY_NAME' => 'EQUEPMENTS','SUBCATEGORY'=>'SAFE EQUEPMENTS']);
+        CATEGORY::CREATE(['CATEGORY_NAME' => 'EQUEPMENTS','SUBCATEGORY'=>'STAMPS AND BUSNISS CARDS']);
+        CATEGORY::CREATE(['CATEGORY_NAME' => 'EQUEPMENTS','SUBCATEGORY'=>'BANK EQUEPMENTS']);
+
+*/
